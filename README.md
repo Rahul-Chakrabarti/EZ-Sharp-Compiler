@@ -42,7 +42,6 @@ The EZ-Sharp grammar is attached below, for reference.
 <number> ::= <integer> | <double>
 ```
 
-
 ## Why choose C over Python?
 
 We are both more experienced with Python but perferred C for the following reasons:
