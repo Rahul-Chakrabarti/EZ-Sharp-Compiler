@@ -1,0 +1,35 @@
+function gcd()
+push LR
+push FP
+FP = SP
+a = fp + 8
+b = fp + 12
+c = fp + 16
+t1 = 2
+t2 = t1 * c
+t3 = a + t2
+t4 = t3 - 10
+b = t4
+comp (a < b)
+beq label1
+b label2
+label1:
+return a
+b label3
+label2:
+return b
+label3:
+label4:
+comp (c == b)
+bne label5
+t5 = c
+t6 = t5 + b
+t7 = a + t6
+b = t7
+a = c
+b label4
+label5:
+end function
+pop FP
+pop PC
+main:
