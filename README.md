@@ -1,5 +1,5 @@
 # EZ-Sharp-Compiler
-In this project we designed and implemented a compiler for a custom programming language named "EZ-Sharp" using the C language. The compiler performs lexical, syntactic and semantic analysis and finished with generate suitable 3TAC code, similar to Assembly code.
+In this project we designed and implemented a compiler for a custom programming language named "EZ-Sharp" using the C language. The compiler performs lexical, syntactic and semantic analysis and finishes with generating suitable 3TAC code, similar to a high-level Assembly code.
 Through this project, we learned how programming languages are intepreted, compiled and converted into executable source code.
 The work was drafted and completed individually, and put together using both of our renditions of the compiler at the end, for improved optimality, correctness and robustness of the compiler.
 
