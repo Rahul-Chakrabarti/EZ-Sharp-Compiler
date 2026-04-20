@@ -54,4 +54,5 @@ We are both more experienced with Python but perferred C for the following reaso
 5. Standing on the shoulders of Giants: Most traditional compilers, including GCC and Clang, were historically written in C or C++.
 6. Lightweight and Predictable Execution: Unlike Python, C does not have garbage collection or dynamic typing, ensuring predictable performance and a more "from scratch" project.
 
-
+References:
+- Compilers: Principles, Techniques, and Tools, A. V. Aho, R. Sethi and J. D. Ullman, Addison-Wesley, 2nd ed., 2006
