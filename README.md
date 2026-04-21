@@ -163,3 +163,6 @@ VARC → ε
 | COMP | { “<”, “>”, “==”, “≤”, “≥”, “<>” } | { “(”, ID, NUMBER } |
 | VAR | { ID } | { “;”,  “)”,  “,”, “=”} |
 | VARC | { “[”,  $\epsilon$  } | { ".", ";", “)”, fed, ",", =, od, fi, else, +, -, *, /, %, <, >, ==, ≤, ≥, <>, “]” } |
+
+References:
+Compilers: Principles, Techniques, and Tools, A. V. Aho, R. Sethi and J. D. Ullman, Addison-Wesley, 2nd ed., 2006
